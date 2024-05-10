@@ -1,0 +1,73 @@
+{
+  "name": "now-ui-dashboard-react",
+  "version": "1.5.2",
+  "main": "dist/index.js",
+  "private": true,
+  "homepage": "https://academy-front-end.onrender.com/",
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@fortawesome/fontawesome-svg-core": "^6.4.2",
+    "@fortawesome/free-regular-svg-icons": "^6.4.2",
+    "@fortawesome/free-solid-svg-icons": "^6.4.2",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@mui/icons-material": "^5.14.16",
+    "@mui/material": "^5.14.16",
+    "axios": "^1.5.1",
+    "bootstrap": "^4.6.2",
+    "chart.js": "3.9.1",
+    "dompurify": "^3.0.6",
+    "perfect-scrollbar": "^1.5.5",
+    "react": ">=16.8.0",
+    "react-bootstrap": "^2.9.1",
+    "react-chartjs-2": "3.3.0",
+    "react-datepicker": "^4.21.0",
+    "react-dom": ">=16.8.0",
+    "react-hot-toast": "^2.4.1",
+    "react-modal": "^3.16.1",
+    "react-notification-alert": "0.0.13",
+    "react-paginate": "^8.2.0",
+    "react-quill": "^2.0.0",
+    "react-router-dom": "6.11.1",
+    "react-scripts": "^5.0.1",
+    "react-select": "^5.8.0",
+    "reactstrap": "8.10.0",
+    "sass": "1.62.1",
+    "tinymce": "^6.7.2",
+    "universal-cookie": "^7.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm start",
+    "compile-sass": "sass src/assets/scss/paper-dashboard.scss src/assets/css/paper-dashboard.css",
+    "minify-sass": "sass src/assets/scss/paper-dashboard.scss src/assets/css/paper-dashboard.min.css --style compressed"
+  },
+  "optionalDependencies": {
+    "@babel/core": "7.21.8",
+    "typescript": "^5.0.4"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
+  },
+  "overrides": {
+    "svgo": "3.0.2",
+    "fsevents": "2.3.2",
+    "chokidar": "3.5.3"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

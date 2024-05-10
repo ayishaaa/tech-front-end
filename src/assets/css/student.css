@@ -1,0 +1,98 @@
+.studentform {
+    padding: 8% 0% 0% 0%;
+}
+.studentcard1 {
+    padding: 0% 4% 0% 4%;
+    margin:5% 0% 0% 0%;
+}
+.stformgroup1 {
+    display: flex;
+    justify-content: space-between;
+}
+.studentcard1 .stformgroup1 .input11 {
+    width: 100%;
+    padding: 3% 0% 3% 7%;
+    margin: 5px 0px 32px 0px;
+    display: inline-block;
+    height: 2%;
+    border: none;
+    border-radius: 25px;
+    font-weight: bold;
+    color: #515752;
+    border-color: #5ab769;
+    border: 1px solid #5ab769;
+  }
+
+  .studentcard1 .stformgroup1 .profilelabel1 {
+    margin: 2% 0% 0% -5%;
+    border-radius: 25px;
+    font-weight: bold;
+    margin-left: 4%;
+    width: 30%;
+  }
+
+  /* .react-datepicker-wrapper{
+    margin: 0% 0% 0% 15%;
+    width: 123%;
+  }
+
+  .react-datepicker__input-container {
+    position: relative;
+    display: inline-block;
+    width: 113%;
+    margin: 0% 0% 0% -14%;
+  }
+  .react-datepicker-ignore-onclickoutside{
+    width: 100%;
+    padding: 3% 0% 3% 7%;
+    margin: 5px 0px 32px 0px;
+    display: inline-block;
+    height: 10% !important;
+    border: none;
+    border-radius: 25px;
+    font-weight: bold;
+    color: #515752;
+    border-color: #5ab769;
+    border: 1px solid #5ab769;
+  } */
+
+  #Date{
+    width: 100%;
+    padding: 3% 0% 3% 7%;
+    margin: 10% 0% 10% 0%;
+    display: inline-block;
+    height: 10% !important;
+    border: none;
+    border-radius: 25px;
+    font-weight: bold;
+    color: #515752;
+    border-color: #5ab769;
+    border: 1px solid #5ab769;
+  }
+
+  .selectst{
+    width: 66%;
+    padding: 3% 0% 3% 7%;
+    margin: 0% 0% 0% -9%;
+    display: inline-block;
+    height: 10% !important;
+    font-weight: bold;
+    color: #ffffff !important;
+  }
+
+  #selectstid{
+    
+    color: bisque !important;
+  }
+  .input11st {
+    width: 90%;
+    padding: 3% 0% 3% 7%;
+    display: inline-block;
+    height: 2%;
+    border: none;
+    border-radius: 25px;
+    font-weight: bold;
+    color: #515752;
+    border-color: #5ab769;
+    border: 1px solid #5ab769;
+  }

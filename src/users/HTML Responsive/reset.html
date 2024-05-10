@@ -1,0 +1,196 @@
+
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+  	<!--nav-->
+	<!--  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script> -->
+	 <!-- <link href="css/fontawesome.css" type="text/css" rel="stylesheet"> -->
+    <!--js-->
+    <!-- <script src="js/all.js"></script>
+    <script src="js/fontawesome.js"></script> -->
+
+
+    <link href="css/fontawesome.css" type="text/css" rel="stylesheet">
+    <link href="css/owl.carousel.min.css" type="text/css" rel="stylesheet">
+    <link href="css/owl.theme.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.min.css">
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.7.1/css/bootstrap-datepicker.min.css" rel="stylesheet"/>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" ></script>
+    <!--js-->
+    <script src="js/all.js"></script>
+    <script src="js/fontawesome.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.7.1/js/bootstrap-datepicker.min.js"></script>
+
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.min.js" ></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
+ 
+
+
+    <title>Reset</title>
+  </head>
+  <body>
+
+
+
+    <section class="login">
+      <div class="row login-row">
+        <div class="col-md-7 col-sm-12">
+          <div class="login-image-div">
+            <img class="w-100" src="images/image.jpg" alt="">
+          </div>
+        </div>
+
+        <div class="col-md-5 col-sm-12 right-col rigt-res">
+            <div class="logo-div">
+              <img  src="images/logo.png" alt="">
+            </div>
+  
+            <div class="form-div">
+              
+              <form class="login-form login-form-res">
+                <input class="form-control form-control-lg" type="text" placeholder="new password">
+                <input class="form-control form-control-lg" type="text" placeholder="confirm password">
+  
+                
+  
+                <a href="done.html"> <button type="button" class="btn btn-login">Reset Password</button></a>
+               
+                
+              </form>
+            </div>
+          </div>
+      </div>
+    </section>
+
+
+
+
+
+
+    
+
+
+    <script type="text/javascript">
+	window.addEventListener("resize", function() {
+		"use strict"; window.location.reload(); 
+	});
+
+
+	document.addEventListener("DOMContentLoaded", function(){
+        
+		document.querySelectorAll('.dropdown-menu').forEach(function(element){
+			element.addEventListener('click', function (e) {
+			  e.stopPropagation();
+			});
+		});
+
+		if (window.innerWidth < 992) {
+			document.querySelectorAll('.navbar .dropdown').forEach(function(everydropdown){
+				everydropdown.addEventListener('hidden.bs.dropdown', function () {
+					  this.querySelectorAll('.megasubmenu').forEach(function(everysubmenu){
+					  	everysubmenu.style.display = 'none';
+					  });
+				})
+			});
+
+			document.querySelectorAll('.has-megasubmenu a').forEach(function(element){
+				element.addEventListener('click', function (e) {
+		
+				  	let nextEl = this.nextElementSibling;
+				  	if(nextEl && nextEl.classList.contains('megasubmenu')) {
+				  		e.preventDefault();
+
+				  		if(nextEl.style.display == 'block'){
+				  			nextEl.style.display = 'none';
+				  		} else {
+				  			nextEl.style.display = 'block';
+				  		}
+
+				  	}
+				});
+			})
+		}
+	}); 
+</script>
+
+<script>
+  $(function() {
+  var selectedClass = "";
+  $(".filter").click(function(){
+    selectedClass = $(this).attr("data-rel");
+    $("#gallery").fadeTo(100, 0.1);
+    $("#gallery div").not("."+selectedClass).fadeOut().removeClass('animation');
+    setTimeout(function() {
+      $("."+selectedClass).fadeIn().addClass('animation');
+      $("#gallery").fadeTo(300, 1);
+    }, 300);
+  });
+});
+</script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+ function counter(id, start, end, duration) {
+  let obj = document.getElementById(id),
+   current = start,
+   range = end - start,
+   increment = end > start ? 1 : -1,
+   step = Math.abs(Math.floor(duration / range)),
+   timer = setInterval(() => {
+    current += increment;
+    obj.textContent = current;
+    if (current == end) {
+     clearInterval(timer);
+    }
+   }, step);
+ }
+ // counter("count1", 0, 24, 50);
+ counter("count2", 100, 750, 2500);
+ // counter("count3", 0, 40, 3000);
+});
+
+  $(".travel-links").click(function() {
+    var id = $(this).attr("href");
+    $('html, body').animate({
+        scrollTop: $(id).offset().top
+    }, 2000);
+});
+</script>
+<script type="text/javascript">
+$(document).ready(function() {
+    if ($(window).width() > 992) {
+        
+        var navbar_height =  $('.navbar').outerHeight();
+
+        $(window).scroll(function(){  
+            if ($(this).scrollTop() > 400) {
+         $('.main-header').css('height', navbar_height + 'px');
+                $("#navbar_top2").show();
+                   $("#navbar_top").hide();
+                 
+            }else{
+                 $("#navbar_top2").hide();
+                   $("#navbar_top").show();
+            }   
+        });
+    }  
+});
+</script>
+
+  </body>
+</html>

@@ -1,0 +1,53 @@
+.roleth1 {
+    /* width: 20%; */
+    font-family: Arial, Helvetica, sans-serif !important;
+    /* padding: 3% !important; */
+    vertical-align: bottom !important;
+    border-bottom: 0px solid #ffffff00 !important;
+}
+.roleth2 {
+    /* width: 20%; */
+    padding: 3% !important;
+}
+.roletd {
+    /* width: 20%; */
+    padding: 2% 0% 0% 4% !important;
+}
+
+.thdiv1{
+    display: flex;
+    width: 100%;
+}
+.thdiv2{
+    display: flex;
+    justify-content: space-around;
+    width: 25%;
+    /* padding-top: 2%; */
+}
+.tddiv1{
+    display: flex;
+    width: 100%;
+}
+.tddiv2{
+    display: flex;
+    justify-content: space-around;
+    width: 25%;
+}
+.trdiv {
+    display: flex;
+    margin: -1% 0% -1% 0%;
+}
+.trdiv1 {
+    display: flex;
+    margin: -1% 0% 0% 0%;
+}
+
+.roleimage {
+    border-radius: 3%;
+    height: 50px !important;
+    width: 50px;
+}
+
+.roleh5 {
+    font-size: 140%;
+}

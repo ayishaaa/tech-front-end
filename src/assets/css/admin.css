@@ -1,0 +1,382 @@
+.adminimage {
+    border-radius: 50%;
+    height: 50px !important;
+    width: 50px;
+}
+.courseimage {
+    border-radius: 5%;
+    width: auto;
+}
+
+.admin {
+    display: contents;
+    justify-content: space-between;
+
+}
+.ctd1, .cth1 {
+    width: 5%; 
+
+}
+.ctd2, .cth2 {
+    width: 20%;
+
+}
+.ctd3, .cth3 {
+    width: 30%;
+    padding: 2% !important;
+    text-align: justify;
+}
+.ctd4, .cth4 {
+    width: 15%;
+
+}
+.ctd5, .cth5 {
+    width: 10%;
+
+}
+.ctd6, .cth6 {
+    width: 10%;
+
+}
+.ctd7, .cth7 {
+    width: 10%;
+
+}
+.ctd8, .cth8 {
+    width: 10%;
+
+}
+
+.adminul {
+    list-style-type: none;
+    /* Remove the bullets */
+    padding: 0;
+    /* Remove padding */
+    margin: 0;
+    /* Remove margin */
+}
+
+.cardtitle {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    color: #5ab769;
+}
+
+.cardtitle Link {
+    width: 30%;
+}
+
+
+/* adminadd */
+
+.bg-with-image {
+    /* background: url('../img/bgimg1.webp') no-repeat; */
+    /* background-size: cover; */
+    background-color: rgb(68 124 67);
+    width: 100%;
+    /* margin-left: 2px;
+    margin-top: -3px; */
+    align-content: center;
+}
+
+.Card {
+    align-items: center;
+    margin: 10% 20% 10% 25%;
+    width: 50%;
+    border-radius: 15px;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    padding: 5% 7% 0% 7%;
+}
+
+.Card .div1 {
+    background-color: #5ab769;
+    border-radius: 44px;
+    box-shadow: 0px 3px 10px rgba(112, 130, 56, 0.1);
+    margin: -26% -11% 0% -11%;
+    padding: 3%;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.Card .div2 {
+    padding: 4% 8% 3% 6%;
+}
+
+.Card .div2 .form {
+    margin: 0% -20% 0% -14%;
+}
+
+.Card .div2 .form .d2form {
+    display: flex;
+    padding: 4% 4% 4% 10%;
+    align-items: center;
+}
+.Card .div2 .form .dateform {
+    display: block;
+    padding: 4% 0%;
+    width: 100%;
+    margin: 0% 2%;
+    align-items: center;
+}
+
+.Card .div2 .form .d2form .adminlabel {
+    position: relative;
+    font-weight: bolder;
+    width: 23%;
+    color: #5ab769;
+    padding-top: 4%;
+}
+
+.d2form .admininput {
+    border: 1px solid #5ab769;
+    border-radius: 21px;
+    padding: 2% 3% 2% 3%;
+    width: 65%;
+    font-weight: bold;
+    background-color: #000000;
+    color: #5ab769;
+}
+.d2form .dateinput {
+    border: 1px solid #5ab769;
+    border-radius: 21px;
+    padding: 3%;
+    width: 100%;
+    font-weight: bold;
+    background-color: #000000;
+    color: #5ab769;
+}
+
+.adminselect {
+    border: 1px solid #5ab769;
+    border-radius: 21px;
+    padding: 2% 3% 2% 3%;
+    width: 65%;
+    font-weight: bold;
+    background-color: #000000;
+    color: #5ab769; 
+}
+
+.Card .div2 .form .d2form .admininput:focus {
+    border: 1px solid #5ab769;
+    border-radius: 21px;
+    padding: 2% 3%;
+    width: 100%;
+    font-weight: bolder;
+
+}
+
+.buttonline {
+    display: flex;
+    justify-content: space-between;
+    /* margin-top: 10%; */
+    margin: 10% 10% 10% 18%;
+    width: 60%;
+    text-align: center;
+}
+
+.buttontheme {
+    border-radius: 10px;
+}
+
+.cardheader1 {
+    margin-top: -4%;
+    margin-left: 5%;
+    width: 90%;
+}
+
+/* Add this to your CSS file or component */
+.pagination {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    justify-content: center;
+  }
+  
+  .pagination li {
+    margin: 0 5px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+  }
+  
+  /* Define styles for the active page number */
+  .active-page {
+    border-radius: 25%;
+    color: #5ab769;
+  }
+
+.MuiPaper-root {
+    /* width: 84% !important; */
+    max-width: 65% !important;
+  }
+  .error-color {
+    color: #e05757;
+  }
+  .react-datepicker__input-container .admininput {
+    border: 1px solid #5ab769;
+    border-radius: 21px;
+    width: 146% !important;
+    padding: 5% 3% 4% 3% !important;
+    font-weight: bold;
+    background-color: #000000;
+    color: #5ab769;
+}
+.css-t3ipsp-control {
+    border: 1px solid #5ab769 !important;
+    border-radius: 21px !important;
+    padding: 2% 3% 2% 3% !important;
+    width: 167% !important;
+    font-weight: bold;
+    background-color: #000000 !important;
+    color: #5ab769 !important;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    cursor: default;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    min-height: 38px;
+    outline: 0!important;
+    position: relative;
+    -webkit-transition: all 100ms;
+    transition: all 100ms;
+    border-style: solid;
+    border-width: 1px;
+    box-sizing: border-box;
+}
+
+.css-13cymwt-control {
+    left: -8%;
+    border: 1px solid #5ab769 !important;
+    border-radius: 21px !important;
+    padding: 2% 3% 2% 3% !important;
+    width: 134% !important;
+    font-weight: bold;
+    border-color: #5ab769 !important;
+    background-color: #000000 !important;
+    color: #5ab769 !important;
+}
+
+.css-1nmdiq5-menu {
+    background-color: #5ab769 !important;
+    color: #58645a;
+    width: 65%;
+
+}
+
+.css-1dimb5e-singleValue{
+    color: #5ab769 !important;
+}
+.css-1xc3v61-indicatorContainer{
+    color: #5ab769 !important;
+}
+.css-b62m3t-container{
+    width: 39%;
+}
+
+
+/* Student list */
+.std1, .sth1 {
+    width: 5%; 
+
+}
+.std2, .sth2 {
+    width: 13%;
+
+}
+.std3, .sth3 {
+    width: 18%;
+    padding: 2% !important;
+    text-align: justify;
+}
+.std4, .sth4{
+    /* background-color: #e05757; */
+    width: 21% !important;
+}
+.atd4, .ath4{
+    /* background-color: #e05757; */
+    width: 10% !important;
+}
+.sth4 select{
+    width: 82%;
+}
+.std5, .sth5 {
+    width: 45%;
+
+}
+.sth6 select {
+    width: 82%;
+}
+.std6, .sth6 {
+    width: 16%;
+
+}
+.std7, .sth7 {
+    width: 10%;
+
+}
+.std8, .sth8 {
+    width: 10%;
+
+}
+.atd8, .ath8 {
+    width: 18%;
+    text-align: center;
+
+}
+.std9, .sth9 {
+    width: 10%;
+
+}
+.btd1, .bth1 {
+    width: 5%; 
+}
+.btd2, .bth2 {
+    width: 20%;
+
+}
+.btd3, .bth3 {
+    width: 20%;
+    /* padding: 2% !important; */
+    text-align: justify;
+}
+.btd4, .bth4 {
+    width: 10%;
+
+}
+.btd5, .bth5 {
+    width: 30%;
+
+}
+.btd6, .bth6 {
+    width: 10%;
+
+}
+.btd7, .bth7 {
+    width: 10%;
+
+}
+.btd8, .bth8 {
+    width: 10%;
+
+}
+
+.bth5 .form-select {
+    width: 80%;
+}
+
+.input-group .inputsearch {
+    margin-top: 0px !important;
+}
