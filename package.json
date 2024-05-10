@@ -3,7 +3,6 @@
   "version": "1.5.2",
   "main": "dist/index.js",
   "private": true,
-  "homepage": "https://academy-front-end.onrender.com/",
   "dependencies": {
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
